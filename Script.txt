@@ -38,7 +38,7 @@ nombre_particular VARCHAR(45) NOT NULL,
 direccion_particular VARCHAR(45) NOT NULL,
 correo_particular VARCHAR(100) NOT NULL,
 telefono_particular VARCHAR(15) NOT NULL,
-activo_empresa INT NOT NULL,
+activo_particular INT NOT NULL,
 PRIMARY KEY (id_particular))
 ENGINE=InnoDB;
 
